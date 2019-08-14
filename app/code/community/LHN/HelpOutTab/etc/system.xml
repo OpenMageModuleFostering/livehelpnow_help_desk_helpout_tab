@@ -61,7 +61,7 @@
                         <autochat>
                             <label>Enable automatic chat invitation:</label>
                             <frontend_type>select</frontend_type>
-                            <source_model>helpouttab/numberoptions</source_model>
+                            <source_model>lhn_helpouttab/numberoptions</source_model>
                             <sort_order>30</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
@@ -70,7 +70,7 @@
                         <theme>
                             <label>HelpOut color theme:</label>
                             <frontend_type>select</frontend_type>
-                            <source_model>helpouttab/themeoptions</source_model>
+                            <source_model>lhn_helpouttab/themeoptions</source_model>
                             <sort_order>40</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
@@ -80,7 +80,7 @@
                             <label>Enable slideout panel:</label>
                             <comment><![CDATA[No if you will only be using the Live Chat system]]></comment>
                             <frontend_type>select</frontend_type>
-                            <source_model>helpouttab/torfoptions</source_model>
+                            <source_model>lhn_helpouttab/torfoptions</source_model>
                             <sort_order>50</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
@@ -90,7 +90,7 @@
                             <label>Enable chat button:</label>
                             <comment><![CDATA[No to hide "chat with us" option]]></comment>
                             <frontend_type>select</frontend_type>
-                            <source_model>helpouttab/torfoptions</source_model>
+                            <source_model>lhn_helpouttab/torfoptions</source_model>
                             <sort_order>60</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
@@ -100,7 +100,7 @@
                             <label>Enable ticket button</label>
                             <comment><![CDATA[No to hide "submit a ticket" option]]></comment>
                             <frontend_type>select</frontend_type>
-                            <source_model>helpouttab/torfoptions</source_model>
+                            <source_model>lhn_helpouttab/torfoptions</source_model>
                             <sort_order>70</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
@@ -110,7 +110,7 @@
                             <label>Enable callback bautton:</label>
                             <comment><![CDATA[No to hide "request callback" option]]></comment>
                             <frontend_type>select</frontend_type>
-                            <source_model>helpouttab/torfoptions</source_model>
+                            <source_model>lhn_helpouttab/torfoptions</source_model>
                             <sort_order>80</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
@@ -120,7 +120,7 @@
                             <label>Knowledge base search:</label>
                             <comment><![CDATA[No to hide the knowledge base search bar, and skip to "More Options"]]></comment>
                             <frontend_type>select</frontend_type>
-                            <source_model>helpouttab/torfoptions</source_model>
+                            <source_model>lhn_helpouttab/torfoptions</source_model>
                             <sort_order>90</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
@@ -130,7 +130,7 @@
                             <label>Enable More options panel:</label>
                             <comment><![CDATA[No to display the "More Options" slide automatically]]></comment>
                             <frontend_type>select</frontend_type>
-                            <source_model>helpouttab/torfoptions</source_model>
+                            <source_model>lhn_helpouttab/torfoptions</source_model>
                             <sort_order>100</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>

@@ -1,28 +1,32 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <config>
-	<modules>
-		<LHN_HelpOutTab>
-			<version>1.2.2</version>
-		</LHN_HelpOutTab>
-	</modules>
-	<global>
-		<models>
-			<helpouttab>
-				<class>LHN_HelpOutTab_Model</class>
-			</helpouttab>
-		</models>
-		<events>
-			<controller_front_send_response_after>
-				<observers>
-					<lhn_helpouttab>
-						<class>LHN_HelpOutTab_Model_Observer</class>
-						<method>controllerFrontSendResponseAfter</method>
-					</lhn_helpouttab>
-				</observers>
-			</controller_front_send_response_after>
-		</events>
-	</global>
-	<default>
+    <modules>
+        <LHN_HelpOutTab>
+            <version>1.3</version>
+        </LHN_HelpOutTab>
+    </modules>
+    <global>
+        <blocks>
+            <lhn_helpouttab>
+                <class>LHN_HelpOutTab_Block</class>
+            </lhn_helpouttab>
+        </blocks>
+        <models>
+            <lhn_helpouttab>
+                <class>LHN_HelpOutTab_Model</class>
+            </lhn_helpouttab>
+        </models>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <lhn_helpouttab module="LHN_HelpOutTab">
+                    <file>lhn_helpouttab.xml</file>
+                </lhn_helpouttab>
+            </updates>
+        </layout>
+    </frontend>
+    <default>
         <lhn_helpouttab>
             <general>
             	<chat_window>0</chat_window>

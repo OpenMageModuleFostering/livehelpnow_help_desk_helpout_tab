@@ -1,0 +1,22 @@
+<script type="text/javascript">
+	var lhnCustom1 = "";
+	var lhnCustom2 = "";
+	var lhnCustom3 = "";
+	var lhnAccountN = "<?php echo $this->getLhnOptions('account_number'); ?>";
+	var lhnInviteEnabled = <?php echo $this->getLhnOptions('autochat'); ?>; 
+	var lhnWindowN = <?php echo $this->getLhnOptions('chat_window'); ?>; 
+	var lhnInviteN = <?php echo $this->getLhnOptions('invitation_window'); ?>; 
+	var lhnDepartmentN = <?php echo $this->getLhnOptions('department'); ?>; 
+	var lhnTheme = "<?php echo $this->getLhnOptions('theme'); ?>"; 
+	var lhnHPPanel = <?php echo $this->getLhnOptions('slideout'); ?>; 
+	var lhnHPKnowledgeBase = <?php echo $this->getLhnOptions('knowbase'); ?>; 
+	var lhnHPMoreOptions = <?php echo $this->getLhnOptions('moreoptions'); ?>; 
+	var lhnHPChatButton = <?php echo $this->getLhnOptions('chat'); ?>; 
+	var lhnHPTicketButton = <?php echo $this->getLhnOptions('ticket'); ?>; 
+	var lhnHPCallbackButton = <?php echo $this->getLhnOptions('callback'); ?>; 
+	var lhnLO_helpPanel_knowledgeBase_find_answers = "<?php echo $this->getLhnOptions('search_title'); ?>";
+	var lhnLO_helpPanel_knowledgeBase_please_search = "<?php echo $this->getLhnOptions('search_message'); ?>";
+	var lhnLO_helpPanel_typeahead_noResults_message = "<?php echo $this->getLhnOptions('no_results'); ?>";
+	var lhnLO_helpPanel_typeahead_result_views = "<?php echo $this->getLhnOptions('views'); ?>";
+</script>
+<script src="//www.livehelpnow.net/lhn/widgets/helpouttab/lhnhelpouttab-current.min.js" type="text/javascript" id="lhnscriptho"></script>

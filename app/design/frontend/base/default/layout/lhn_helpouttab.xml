@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <default>
+        <reference name="head">
+            <block type="lhn_helpouttab/helpouttab" name="lhn_helpouttab_helpouttab" template="lhn_helpouttab/helpouttab.phtml" />
+        </reference>
+    </default>
+</layout>

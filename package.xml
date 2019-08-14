@@ -1,27 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>LiveHelpNow_Help_Desk_HelpOut_Tab</name>
-    <version>1.2.2</version>
+    <version>1.3.0</version>
     <stability>stable</stability>
     <license>GNU General Public License (GPL)</license>
     <channel>community</channel>
     <extends/>
     <summary>The HelpOut Tab plugin displays help desk options to visitors in a snappy right tab.</summary>
-    <description>LiveHelpNow is a responsive, reliable, and extremely affordable Help Desk Software for your website. The &lt;a href="http://www.livehelpnow.net"&gt;LiveHelpNow HelpOut Tab&lt;/a&gt; plugin displays help desk options to visitors in a snappy right tab that&#x2019;s easy to spot and works intuitively- pointing customers with questions to instant answers so they can find all the information they need to make a confident purchase.&#xD;
-&lt;br /&gt;&lt;br /&gt;&#xD;
-The versatile HelpOut Tab works with any combination of LiveHelpNow products:&#xD;
-&lt;br /&gt;&lt;br /&gt;&#xD;
-&#x2022; Live Chat System&lt;br /&gt;&#xD;
-&#x2022; Ticket System&lt;br /&gt;&#xD;
-&#x2022; Callback Request System&lt;br /&gt;&#xD;
-&#x2022; Knowledge Base System&lt;br /&gt;&#xD;
-&lt;br /&gt;&#xD;
-This FREE plugin requires a PAID LiveHelpNow Subscription.</description>
-    <notes>Minor bug fixes</notes>
-    <authors><author><name>Eric Witchin</name><user>livehelpnow</user><email>plugins@livehelpnow.com</email></author></authors>
-    <date>2014-05-15</date>
-    <time>09:31:13</time>
-    <contents><target name="magecommunity"><dir name="LHN"><dir name="HelpOutTab"><dir name="Model"><file name="Numberoptions.php" hash="69866ada2a28f913c0a95d7890361ede"/><file name="Observer.php" hash="764c26dc9d8b97a3d74276a1a7d5a3e7"/><file name="Themeoptions.php" hash="59cab048698fb9db808acc373d70b9f0"/><file name="Torfoptions.php" hash="0607e2cee88f601872159836b97a6cd9"/></dir><dir name="etc"><file name="adminhtml.xml" hash="224498779875ca9fb89e3a6f24c9541a"/><file name="config.xml" hash="4a7acb7e2eb241082707cd48c2f2e847"/><file name="system.xml" hash="dac8422fa4a67cf5ae2d612ab3ca6103"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="LHN_HelpOutTab.xml" hash="2527101d29220ad373ee8e4572b70dd7"/></dir></target></contents>
+    <description>The HelpOut Tab plugin displays help desk options to visitors in a snappy right tab.</description>
+    <notes>Fixed issue that would hang up single page checkout steps when using the HelpOut Tab</notes>
+    <authors><author><name>Eric Witchin</name><user>ewitchin</user><email>ew@livehelpnow.com</email></author></authors>
+    <date>2014-08-18</date>
+    <time>18:09:42</time>
+    <contents><target name="mageetc"><dir><dir name="modules"><file name="LHN_HelpOutTab.xml" hash="2527101d29220ad373ee8e4572b70dd7"/></dir></dir></target><target name="magedesign"><dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="lhn_helpouttab.xml" hash="7a804b748128d2b36fba97203d03f962"/></dir><dir name="template"><dir name="lhn_helpouttab"><file name="helpouttab.phtml" hash="0e08f05b65adb42801413f0bd62f0fae"/></dir></dir></dir></dir></dir></dir></target><target name="magecommunity"><dir><dir name="LHN"><dir name="HelpOutTab"><dir name="Block"><file name="Helpouttab.php" hash="8243640fcfa03104f360825a7e7b3b93"/></dir><dir name="Model"><file name="Numberoptions.php" hash="79eba3fa5369aa46e61a5db5338b4018"/><file name="Themeoptions.php" hash="50b0279a3d6fb54d60d07112d7d7d826"/><file name="Torfoptions.php" hash="779439feb3b5fc4ca88b19e45eaaf7fc"/></dir><dir name="etc"><file name="adminhtml.xml" hash="224498779875ca9fb89e3a6f24c9541a"/><file name="config.xml" hash="06149ff81352e4e1556f799137ac2e6f"/><file name="system.xml" hash="8b746e70ac08fd631bb857fbe214625e"/></dir></dir></dir></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.3.0</min><max>5.5.99</max></php></required></dependencies>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
