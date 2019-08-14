@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>LiveHelpNow_Help_Desk_HelpOut_Tab</name>
-    <version>1.2.1</version>
+    <version>1.2.2</version>
     <stability>stable</stability>
     <license>GNU General Public License (GPL)</license>
     <channel>community</channel>
@@ -17,11 +17,11 @@ The versatile HelpOut Tab works with any combination of LiveHelpNow products:&#x
 &#x2022; Knowledge Base System&lt;br /&gt;&#xD;
 &lt;br /&gt;&#xD;
 This FREE plugin requires a PAID LiveHelpNow Subscription.</description>
-    <notes>Added more php support</notes>
+    <notes>Minor bug fixes</notes>
     <authors><author><name>Eric Witchin</name><user>livehelpnow</user><email>plugins@livehelpnow.com</email></author></authors>
     <date>2014-05-15</date>
-    <time>09:26:16</time>
-    <contents><target name="magecommunity"><dir name="LHN"><dir name="HelpOutTab"><dir name="Model"><file name="Numberoptions.php" hash="69866ada2a28f913c0a95d7890361ede"/><file name="Observer.php" hash="764c26dc9d8b97a3d74276a1a7d5a3e7"/><file name="Themeoptions.php" hash="59cab048698fb9db808acc373d70b9f0"/><file name="Torfoptions.php" hash="0607e2cee88f601872159836b97a6cd9"/></dir><dir name="etc"><file name="adminhtml.xml" hash="224498779875ca9fb89e3a6f24c9541a"/><file name="config.xml" hash="1907782befd3bb9d5ea024a1c97ec57e"/><file name="system.xml" hash="dac8422fa4a67cf5ae2d612ab3ca6103"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="LHN_HelpOutTab.xml" hash="2527101d29220ad373ee8e4572b70dd7"/></dir></target></contents>
+    <time>09:31:13</time>
+    <contents><target name="magecommunity"><dir name="LHN"><dir name="HelpOutTab"><dir name="Model"><file name="Numberoptions.php" hash="69866ada2a28f913c0a95d7890361ede"/><file name="Observer.php" hash="764c26dc9d8b97a3d74276a1a7d5a3e7"/><file name="Themeoptions.php" hash="59cab048698fb9db808acc373d70b9f0"/><file name="Torfoptions.php" hash="0607e2cee88f601872159836b97a6cd9"/></dir><dir name="etc"><file name="adminhtml.xml" hash="224498779875ca9fb89e3a6f24c9541a"/><file name="config.xml" hash="4a7acb7e2eb241082707cd48c2f2e847"/><file name="system.xml" hash="dac8422fa4a67cf5ae2d612ab3ca6103"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="LHN_HelpOutTab.xml" hash="2527101d29220ad373ee8e4572b70dd7"/></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.3.0</min><max>5.4.59</max></php></required></dependencies>
+    <dependencies><required><php><min>5.3.0</min><max>5.5.99</max></php></required></dependencies>
 </package>
