@@ -3,7 +3,7 @@
     "type": "magento-module",
     "license": "GNU-General-Public-License-(GPL)",
     "homepage": "",
-    "description": "The HelpOut Tab plugin displays help desk options to visitors in a snappy right tab that’s easy to spot and works intuitively.",
+    "description": "The HelpOut Tab plugin displays help desk options to visitors in a snappy right tab.",
     "authors": [
     {
         "name": "Eric Witchin",

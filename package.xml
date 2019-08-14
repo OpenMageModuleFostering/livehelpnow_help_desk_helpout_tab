@@ -1,24 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>LiveHelpNow_Help_Desk_HelpOut_Tab</name>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <stability>stable</stability>
     <license>GNU General Public License (GPL)</license>
     <channel>community</channel>
     <extends/>
-    <summary>The HelpOut Tab plugin displays help desk options to visitors in a snappy right tab that&#x2019;s easy to spot and works intuitively.</summary>
-    <description>LiveHelpNow is a responsive, reliable, and extremely affordable Help Desk Software for your website. The HelpOut Tab plugin displays help desk options to visitors in a snappy right tab that&#x2019;s easy to spot and works intuitively- pointing customers with questions to instant answers so they can find all the information they need to make a confident purchase.&#xD;
-&#xD;
-The versatile HelpOut Tab works with any combination of LiveHelpNow products:&#xD;
--Live Chat System&#xD;
--Ticket System&#xD;
--Callback Request System&#xD;
--Knowledge Base System</description>
-    <notes>Initial release</notes>
+    <summary>The HelpOut Tab plugin displays help desk options to visitors in a snappy right tab.</summary>
+    <description>LiveHelpNow is a responsive, reliable, and extremely affordable Help Desk Software for your website. The HelpOut Tab plugin displays help desk options to visitors in a snappy right tab that&#x2019;s easy to spot and works intuitively- pointing customers with questions to instant answers so they can find all the information they need to make a confident purchase. The versatile HelpOut Tab works with any combination of LiveHelpNow products: - Live Chat System - Ticket System - Callback Request System - Knowledge Base System</description>
+    <notes>Now includes Google Analytics Event Tracking</notes>
     <authors><author><name>Eric Witchin</name><user>livehelpnow</user><email>plugins@livehelpnpw.com</email></author></authors>
-    <date>2013-04-04</date>
-    <time>09:59:29</time>
-    <contents><target name="magecommunity"><dir name="LHN"><dir name="HelpOutTab"><dir name="Model"><file name="Numberoptions.php" hash="69866ada2a28f913c0a95d7890361ede"/><file name="Observer.php" hash="0797253e10ae51b279de31ffa6a22c8f"/><file name="Themeoptions.php" hash="59cab048698fb9db808acc373d70b9f0"/><file name="Torfoptions.php" hash="0607e2cee88f601872159836b97a6cd9"/></dir><dir name="etc"><file name="adminhtml.xml" hash="224498779875ca9fb89e3a6f24c9541a"/><file name="config.xml" hash="e4b4270ffb259b98164da25ebb86397f"/><file name="system.xml" hash="5a5964dd05dd40b8e0b9a3318506c201"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="LHN_HelpOutTab.xml" hash="2527101d29220ad373ee8e4572b70dd7"/></dir></target></contents>
+    <date>2013-04-11</date>
+    <time>16:30:32</time>
+    <contents><target name="magecommunity"><dir name="LHN"><dir name="HelpOutTab"><dir name="Model"><file name="Numberoptions.php" hash="69866ada2a28f913c0a95d7890361ede"/><file name="Observer.php" hash="28b1ef4e11a123d9f83048362bf2e401"/><file name="Themeoptions.php" hash="59cab048698fb9db808acc373d70b9f0"/><file name="Torfoptions.php" hash="0607e2cee88f601872159836b97a6cd9"/></dir><dir name="etc"><file name="adminhtml.xml" hash="224498779875ca9fb89e3a6f24c9541a"/><file name="config.xml" hash="e4b4270ffb259b98164da25ebb86397f"/><file name="system.xml" hash="5a5964dd05dd40b8e0b9a3318506c201"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="LHN_HelpOutTab.xml" hash="2527101d29220ad373ee8e4572b70dd7"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
