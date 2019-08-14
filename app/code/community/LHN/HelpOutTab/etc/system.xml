@@ -24,7 +24,7 @@
                     <fields>
                         <account_number>
                             <label>LiveHelpNow Account Number:</label>
-                            <comment><![CDATA[* Must be numeric<br /><a href="http://www.livehelpnow.net/lnd/trial.aspx" target="_blank">Sign Up</a>]]></comment>
+                            <comment><![CDATA[* Must be numeric<br /><a href="http://www.livehelpnow.net/lnd/trial.aspx" target="_blank">Sign Up</a> if you do not have a LiveHelpNow Account]]></comment>
                             <frontend_type>text</frontend_type>
                             <sort_order>10</sort_order>
                             <show_in_default>1</show_in_default>

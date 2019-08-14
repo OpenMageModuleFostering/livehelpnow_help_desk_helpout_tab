@@ -48,7 +48,7 @@ class LHN_HelpOutTab_Model_Observer{
 			$lhncontent .= 'var lhnPlugin = "Mage-'.Mage::getVersion().'-HO";'.PHP_EOL;
 			$lhncontent .= 'var lhnVersion = 5.3;'.PHP_EOL;
 			$lhncontent .= 'var lhnAccountN = '.$lhn_account_number.';'.PHP_EOL;
-			$lhncontent .= 'var lhnButtonN = -1;'.PHP_EOL;
+			$lhncontent .= 'if(typeof lhnButtonN == "undefined"){var lhnButtonN = -1;}'.PHP_EOL;
 			$lhncontent .= 'var lhnJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");'.PHP_EOL;
 			$lhncontent .= 'var lhnInviteEnabled = '.$lhn_autochat.';'.PHP_EOL; 
 			$lhncontent .= 'var lhnInviteChime = 0; '.PHP_EOL;
