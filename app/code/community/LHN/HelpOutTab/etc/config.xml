@@ -26,6 +26,7 @@
         <lhn_helpouttab>
             <general>
             	<chat_window>0</chat_window>
+            	<department>0</department>
             	<theme>default</theme>
                 <search_title>Find answers</search_title>
                 <search_message>Please search our knowledge base for answers or click [More options]</search_message>
