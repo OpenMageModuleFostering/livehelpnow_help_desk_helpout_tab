@@ -20,6 +20,7 @@ class LHN_HelpOutTab_Model_Observer{
 			$lhn_account_number = Mage::getStoreConfig('lhn_helpouttab/general/account_number');
 			$lhn_account_number = str_replace("lhn", "", strtolower($lhn_account_number));
 			$lhn_chat_window = Mage::getStoreConfig('lhn_helpouttab/general/chat_window');
+			$lhn_invitation_window = Mage::getStoreConfig('lhn_helpouttab/general/invitation_window');
 			$lhn_department = Mage::getStoreConfig('lhn_helpouttab/general/department');
 			$lhn_autochat = Mage::getStoreConfig('lhn_helpouttab/general/autochat');
 			$lhn_theme = Mage::getStoreConfig('lhn_helpouttab/general/theme');
@@ -42,6 +43,7 @@ class LHN_HelpOutTab_Model_Observer{
 			$lhncontent .= 'var lhnAccountN = "'.$lhn_account_number.'";'.PHP_EOL;
 			$lhncontent .= 'var lhnInviteEnabled = '.$lhn_autochat.';'.PHP_EOL; 
 			$lhncontent .= 'var lhnWindowN = '.$lhn_chat_window.'; '.PHP_EOL;
+			$lhncontent .= 'var lhnInviteN = '.$lhn_invitation_window.'; '.PHP_EOL;
 			$lhncontent .= 'var lhnDepartmentN = '.$lhn_department.'; '.PHP_EOL;
 			$lhncontent .= 'var lhnTheme = "'.$lhn_theme.'"; '.PHP_EOL;
 			$lhncontent .= 'var lhnHPPanel = '.$lhn_slideout.'; '.PHP_EOL;
@@ -55,7 +57,7 @@ class LHN_HelpOutTab_Model_Observer{
 			$lhncontent .= 'var lhnLO_helpPanel_typeahead_noResults_message = "'.$lhn_no_results.'";'.PHP_EOL;
 			$lhncontent .= 'var lhnLO_helpPanel_typeahead_result_views = "'.$lhn_views.'";'.PHP_EOL;
 			$lhncontent .= '</script>'.PHP_EOL;
-			$lhncontent .= '<script src="//commondatastorage.googleapis.com/lhn/helpout/scripts/lhnhelpouttab-current.min.js" type="text/javascript" id="lhnscriptho"></script>'.PHP_EOL;
+			$lhncontent .= '<script src="//www.livehelpnow.net/lhn/widgets/helpouttab/lhnhelpouttab-current.min.js" type="text/javascript" id="lhnscriptho"></script>'.PHP_EOL;
 			
 			echo $lhncontent;
 		}

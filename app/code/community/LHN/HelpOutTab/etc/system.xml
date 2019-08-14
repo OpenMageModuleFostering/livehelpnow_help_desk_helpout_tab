@@ -40,6 +40,15 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </chat_window>
+                        <invitation_window>
+                            <label>Invitation Window ID:</label>
+                            <comment><![CDATA[* Must be numeric -- This is usually 0]]></comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </invitation_window>
                         <department>
                             <label>Department ID:</label>
                             <comment><![CDATA[* Must be numeric -- This is usually 0]]></comment>

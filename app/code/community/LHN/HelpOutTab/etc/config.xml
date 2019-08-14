@@ -2,7 +2,7 @@
 <config>
 	<modules>
 		<LHN_HelpOutTab>
-			<version>1.0</version>
+			<version>1.2.0</version>
 		</LHN_HelpOutTab>
 	</modules>
 	<global>
