@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<LHN_HelpOutTab>
+			<version>1.0</version>
+		</LHN_HelpOutTab>
+	</modules>
+	<global>
+		<models>
+			<helpouttab>
+				<class>LHN_HelpOutTab_Model</class>
+			</helpouttab>
+		</models>
+		<events>
+			<controller_front_send_response_after>
+				<observers>
+					<lhn_helpouttab>
+						<class>LHN_HelpOutTab_Model_Observer</class>
+						<method>controllerFrontSendResponseAfter</method>
+					</lhn_helpouttab>
+				</observers>
+			</controller_front_send_response_after>
+		</events>
+	</global>
+	<default>
+        <lhn_helpouttab>
+            <general>
+            	<chat_window>0</chat_window>
+            	<theme>default</theme>
+                <search_title>Find answers</search_title>
+                <search_message>Please search our knowledge base for answers or click [More options]</search_message>
+                <no_results>No results found for</no_results>
+                <views>view</views>
+            </general>
+        </lhn_helpouttab>
+    </default>
+</config>

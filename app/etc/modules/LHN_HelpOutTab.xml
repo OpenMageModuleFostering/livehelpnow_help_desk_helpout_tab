@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <LHN_HelpOutTab>
+      <active>true</active>
+      <codePool>community</codePool>
+    </LHN_HelpOutTab>
+  </modules>
+</config>

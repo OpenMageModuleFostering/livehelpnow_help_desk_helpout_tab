@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <lhn>
+            <label>LiveHelpNow</label>
+            <sort_order>100</sort_order>
+        </lhn>
+    </tabs>
+    <sections>
+        <lhn_helpouttab>
+            <label>HelpOut Tab</label>
+            <tab>lhn</tab>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general>
+                    <label>General Settings</label>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <account_number>
+                            <label>LiveHelpNow Account Number:</label>
+                            <comment><![CDATA[* Must be numeric]]></comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </account_number>
+                        <chat_window>
+                            <label>Chat Window:</label>
+                            <comment><![CDATA[* Must be numeric]]></comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </chat_window>
+                        <autochat>
+                            <label>Enable automatic chat invitation:</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>helpouttab/numberoptions</source_model>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </autochat>
+                        <theme>
+                            <label>HelpOut color theme:</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>helpouttab/themeoptions</source_model>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </theme>
+                        <slideout>
+                            <label>Enable slideout panel:</label>
+                            <comment><![CDATA[No if you will only be using the Live Chat system]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>helpouttab/torfoptions</source_model>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </slideout>
+                        <chat>
+                            <label>Enable chat button:</label>
+                            <comment><![CDATA[No to hide "chat with us" option]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>helpouttab/torfoptions</source_model>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </chat>
+                        <ticket>
+                            <label>Enable ticket button</label>
+                            <comment><![CDATA[No to hide "submit a ticket" option]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>helpouttab/torfoptions</source_model>
+                            <sort_order>70</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </ticket>
+                        <callback>
+                            <label>Enable callback bautton:</label>
+                            <comment><![CDATA[No to hide "request callback" option]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>helpouttab/torfoptions</source_model>
+                            <sort_order>80</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </callback>
+                        <knowbase>
+                            <label>Knowledge base search:</label>
+                            <comment><![CDATA[No to hide the knowledge base search bar, and skip to "More Options"]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>helpouttab/torfoptions</source_model>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </knowbase>
+                        <moreoptions>
+                            <label>Enable More options panel:</label>
+                            <comment><![CDATA[No to display the "More Options" slide automatically]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>helpouttab/torfoptions</source_model>
+                            <sort_order>100</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </moreoptions>
+                        <search_title>
+                            <label>"Search" title:</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>110</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </search_title>
+                        <search_message>
+                            <label>"Search" message:</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>120</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </search_message>
+                        <no_results>
+                            <label>No Results Found message:</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>130</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </no_results>
+                        <views>
+                            <label>Article Views label:</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>140</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </views>
+                    </fields>
+                </general>
+            </groups>
+        </lhn_helpouttab>
+    </sections>
+</config>
