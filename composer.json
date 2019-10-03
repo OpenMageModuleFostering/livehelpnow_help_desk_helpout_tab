@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/LiveHelpNow_Help_Desk_HelpOut_Tab",
+    "name": "OpenMageModuleFostering\/LiveHelpNow_Help_Desk_HelpOut_Tab",
     "type": "magento-module",
     "license": "GNU-General-Public-License-(GPL)",
     "homepage": "",
     "description": "The HelpOut Tab plugin displays help desk options to visitors in a snappy right tab.",
     "authors": [
-    {
-        "name": "Eric Witchin",
-        "email": "ew@livehelpnow.com"
-    }
-],
+        {
+            "name": "Eric Witchin",
+            "email": "ew@livehelpnow.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
