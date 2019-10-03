@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 The HelpOut Tab plugin displays help desk options to visitors in a snappy right tab.
